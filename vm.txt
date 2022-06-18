@@ -1,0 +1,143 @@
+
+Basic   = {
+        "Token"                : "*****",
+        "Currency"             : "trx",
+        "Reset If Profit"      : 0.001,
+        "Reset If Lose"        : 0,
+        "Reset If Win Streak"  : 0,
+        "Reset If Lose Streak" : 0,
+
+        "Target Balance"       : 100,
+        "Target Profit"        : 1,
+        "Target Lose"          : 0,
+
+        "Auto Change Betset"   : {
+                    "Status"               : "ON",
+                    "If Win Streak"        : 0,
+                    "If Lose Streak"       : 0,
+                    "If Profit"            : 0.0001
+                    ## "Interval"             : 0
+        },
+
+        ## If Profit/Lose Target Reached
+        "Re-Play"              : "ON",
+        "Refresh Seed"         : "ON",
+
+        # 10 digit/char (fill free)
+        # fill with `0` if you want random seed
+
+        "Seed"                 : 0
+}
+
+Betset  = [{
+        "Name"         : "hiji (1)",
+        "Base Bet"     : 0.00003,
+        "Max Base Bet" : 0,
+        "Chance"       : {
+                        "Min": 7,
+                        "Max": 22
+        },
+
+        "HiLo"         : "L",  # AUTO / H / L
+
+        "If Win"       : 1,
+        "If Lose"      : 1.25,
+        "Number Bets"  : 20,    # Before excecuting Jump Set
+        "Jump Status"  : "ON",
+        "Jump Set"     : [{
+                "Comment"       : "tuyul",
+                "Status"        : "on",
+                "Base Bet"      : 0.00003,
+                "Repeat Bets"   : 20,
+                "Chance"  : {
+                           "Min": 49.5,
+                           "Max": 49
+                }},{
+                "Comment"       : "tuyulwa",
+                "Status"        : "on",
+                "Base Bet"      : 0.00003,
+                "Repeat Bets"   : 19,
+                "Chance"  : {
+                           "Min": 52,
+                           "Max": 60
+                }},{
+                "Comment"       : "tuyulu",
+                "Status"        : "on",
+                "Base Bet"      : 0.00003,
+                "Repeat Bets"   : 9,
+                "Chance"  : {
+                           "Min": 15,
+                           "Max": 15
+                }},{
+                "Comment"       : "mainset",
+                "Status"        : "on",
+                "Base Bet"      : 0.00000015,
+                "Repeat Bets"   : 1,
+                "Chance"  : {
+                           "Min": 25,
+                           "Max": 25
+                }}
+        ]},{
+        "Name"         : "hiji (2)",
+        "Base Bet"     : 0.00003,
+        "Max Base Bet" : 0,
+        "Chance"       : {
+                        "Min": 7,
+                        "Max": 22
+        },
+
+        "HiLo"         : "H",  # AUTO / H / L
+
+        "If Win"       : 1,
+        "If Lose"      : 1.25,
+        "Number Bets"  : 20,    # Before excecuting Jump Set
+        "Jump Status"  : "ON",
+        "Jump Set"     : [{
+                "Comment"       : "tuyul",
+                "Status"        : "on",
+                "Base Bet"      : 0.00003,
+                "Repeat Bets"   : 20,
+                "Chance"  : {
+                           "Min": 49.5,
+                           "Max": 49
+                }},{
+                "Comment"       : "tuyulwa",
+                "Status"        : "on",
+                "Base Bet"      : 0.00003,
+                "Repeat Bets"   : 19,
+                "Chance"  : {
+                           "Min": 52,
+                           "Max": 60
+                }},{
+                "Comment"       : "tuyulu",
+                "Status"        : "on",
+                "Base Bet"      : 0.00003,
+                "Repeat Bets"   : 9,
+                "Chance"  : {
+                           "Min": 15,
+                           "Max": 15
+                }},{
+                "Comment"       : "mainset",
+                "Status"        : "on",
+                "Base Bet"      : 0.00000015,
+                "Repeat Bets"   : 1,
+                "Chance"  : {
+                           "Min": 25,
+                           "Max": 25
+                }}
+        ]},
+]
+
+Extra   = {
+
+}
+#•••••••••••••••••••••••••••••••••••••••••••••••
+#  BL`378_project
+#  Dice (Stake) v1.0.0 (97)
+#  --
+#
+#  #bancetz.Laut_
+#  @ballataxart  (tg)
+#  378bancetz.laut@gmail.com
+#•••••••••••••••••••••••••••••••••••••••••••••••
+
